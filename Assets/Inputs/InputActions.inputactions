@@ -1,0 +1,561 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "Axes",
+            "id": "78e6ebc4-d2f8-46f0-afd1-b72602d782b6",
+            "actions": [
+                {
+                    "name": "LX",
+                    "type": "Value",
+                    "id": "18d32df2-3dba-495f-9f4c-c11e7acabf58",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LY",
+                    "type": "Value",
+                    "id": "ec0dc9a5-089a-46f7-9ce5-1d0fc43c01f7",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RX",
+                    "type": "Value",
+                    "id": "3677e239-52b5-4a92-86a8-121bc2ceacb9",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RY",
+                    "type": "Value",
+                    "id": "b006fd35-581c-47ed-a2ae-f4f27fd1226e",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Axis",
+                    "id": "f9f05d99-4a06-48b8-9e4d-0860d0694cbf",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LX",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "6ab6fc00-03d3-4ba7-9b6e-b94a8156c98e",
+                    "path": "<Keyboard>/numpad4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "LX",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "ee387254-f1b9-48d5-8785-e20d3f29628e",
+                    "path": "<Keyboard>/numpad6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "LX",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Axis",
+                    "id": "5753acb4-572b-4a31-a8f1-bf4967161a82",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LX",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "3f345e61-a03d-4b05-b643-043b9bfdf4ac",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/stick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "LX",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "cf2ea19c-f73b-4253-a2b8-6ac281c63e7f",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/stick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "LX",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Axis",
+                    "id": "7e14ab0e-6310-41ea-9aae-748fd4ffd190",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "LY",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "e3055c57-0819-4fab-84d0-b08744e4e162",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "LY",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "0e616947-6447-40f1-a926-976c4996bdb9",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "LY",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Axis",
+                    "id": "ccf53c1b-b694-45c7-944b-d88edfbd74b1",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "RX",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "b680bc51-3565-465c-8732-6943fe37c4d2",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "RX",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "096d1341-b7ac-4d4a-85a1-81d6cb19ad1c",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "RX",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "4e4bf687-0b3e-409c-aadf-9fd654a9b069",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "RX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Axis",
+                    "id": "367a5f12-8a09-47df-86a6-e0b0903dd5f6",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "RY",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "8fd96c01-4371-4760-8bf3-e96825941512",
+                    "path": "<Keyboard>/numpad2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "RY",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "7f15a538-29af-4e7a-ae6b-9e2824b58474",
+                    "path": "<Keyboard>/numpad8",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "RY",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "94225e06-7312-4c68-9188-52f606b27068",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/rz",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "RY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Axis",
+                    "id": "3f08c4f2-14ad-4bff-8bcb-14721b18fb3d",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "LY",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "fddb817a-c3de-48e7-ad38-5cf0d5fd8c76",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/stick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "LY",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "71677408-71f9-4da7-9976-902b4b7d42b9",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/stick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "LY",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Buttons",
+            "id": "cdcc78e9-8ac8-44d1-9eb3-25a94ccdf4a7",
+            "actions": [
+                {
+                    "name": "B",
+                    "type": "Button",
+                    "id": "69ae4a13-492f-482e-8043-da3b398c3495",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "A",
+                    "type": "Button",
+                    "id": "7b61ae99-5706-44b5-9690-97e0be3f5a12",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Y",
+                    "type": "Button",
+                    "id": "5588ba9a-9199-4fba-b1aa-304fda295070",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "X",
+                    "type": "Button",
+                    "id": "d4139f45-dbfc-486c-8c19-8f26b5edbab0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L1",
+                    "type": "Button",
+                    "id": "a62295cb-43ac-4407-bbec-43c9314ff67f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R1",
+                    "type": "Button",
+                    "id": "16a3c96d-e95e-4fc1-9d3c-75c1fbbcb3bd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L2",
+                    "type": "Button",
+                    "id": "b149dad5-77b0-4f80-8a36-73393125f818",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R2",
+                    "type": "Button",
+                    "id": "8554883a-0cdf-4fb8-a050-2ffc3a9d6d32",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Home",
+                    "type": "Button",
+                    "id": "07c8c960-fb7c-4b41-9ff7-de4c25b95017",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Up",
+                    "type": "Button",
+                    "id": "59720c6b-0b23-4fe5-95e0-bfcfa7f89a32",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Down",
+                    "type": "Button",
+                    "id": "bf07d479-4840-4f5a-b6fd-ad6b41a65265",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "7ab512f8-71f2-4818-88f6-fa09d14ef14a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "b4c2f473-4572-46eb-9601-9a7115602e05",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fff1af00-49ec-4d69-a408-223629c9cd4f",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "B",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d26585ce-9b47-4c3b-a608-04da267b69bc",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "A",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7e554cc2-2d20-4593-9f64-f2c1c80f2d51",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "Y",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0f36961f-3774-4ab2-a210-12b2962a8df6",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "X",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "94ed5b2d-2ffd-444c-927b-c08befe3315b",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "L1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ab8d7f57-f82d-40d0-9995-7a843be2455d",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "R1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1581379a-8823-4576-a157-fe841006d747",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/button8",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "R2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bfbeb74c-84c5-4319-83f9-3e4af0908101",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/button7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "L2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e78f0fc8-7ad4-46c4-a033-e17be87352d2",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/button9",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "Home",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f4f2a688-d6bf-473e-9ac1-a37e6a5944de",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/button13",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "856082f7-4ec4-4dc0-8b40-c4fcb2adf214",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/button14",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bdca3807-16e7-486b-a5e7-c194cd1b2117",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/button15",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "45c0d1cd-b015-4058-8126-0cc003499787",
+                    "path": "<HID::VEX Robotics, Inc V5 GAME PAD>/button16",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "V5 Gamepad",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "V5 Gamepad",
+            "bindingGroup": "V5 Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<HID::VEX Robotics, Inc V5 GAME PAD>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
